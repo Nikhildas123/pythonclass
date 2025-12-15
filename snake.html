@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="snake.css">
+<body>
+    <div class="board">
+
+   
+    <div class="cell">100</div>
+    <div class="cell">99</div>
+    <div class="cell ladder">98<br>⬆</div>
+    <div class="cell">97</div>
+    <div class="cell">96</div>
+    <div class="cell snake">95<br>⬇</div>
+    <div class="cell">94</div>
+    <div class="cell">93</div>
+    <div class="cell">92</div>
+    <div class="cell">91</div>
+    <div class="cell">81</div>
+    <div class="cell">82</div>
+    <div class="cell">83</div>
+    <div class="cell ladder">84⬆</div>
+    <div class="cell">85</div>
+    <div class="cell">86</div>
+    <div class="cell">87</div>
+    <div class="cell snake">88⬇</div>
+    <div class="cell">89</div>
+    <div class="cell">90</div>
+
+    <script>
+        
+        const board = document.querySelector('.board');
+        let start = 80;
+        while(start > 0){
+            const div = document.createElement("div");
+            div.className = "cell";
+            div.textContent = start;
+            board.append(div);
+            start--;
+        }
+    </script>
+
+</div>
+
+
+</body>
+</html>
