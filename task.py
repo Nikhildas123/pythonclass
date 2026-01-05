@@ -25,3 +25,6 @@ print(result)
 #palindrome
 result = "malayalam" in "concatenate"
 print(result)
+
+
+# = ["Not Equal", "Equal"][abs(a - b) == 0]
