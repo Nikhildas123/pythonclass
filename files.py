@@ -35,7 +35,21 @@
 # position = file.tell()
 # print(position)
 
-file = open("files.txt", "r")
-file.seek(5) 
-print(file.read())
-file.close()
+# file = open("files.txt", "r")
+# file.seek(5) 
+# print(file.read())
+# file.close()
+
+
+
+# try:
+#     file-open("filesss.txt","r")
+#     content=file.read()
+# except FileNotFoundError:
+#     print("file not found!")
+# finally:
+#     file.close()
+
+x=-5
+if x<0:
+    raise Exception("negative numbers are not allowed")
