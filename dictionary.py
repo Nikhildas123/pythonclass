@@ -109,3 +109,14 @@ my_dict = {"name": "John", "age": 30}
 city = my_dict.setdefault("city", "New York")
 print(city) # Output: New York
 print(my_dict) # Output: {'name': 'John', 'age': 30, 'city': 'NewYork'}
+
+
+
+
+
+
+
+
+
+
+file handling,list

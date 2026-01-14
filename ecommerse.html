@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Commerce Navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="ecommerse.css">
+<body>
+
+<nav class="navbar">
+    <div class="logo">ShopEase</div>
+
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+        <input type="text" placeholder="Search products..." class="search-box">
+        <a href="#" class="cart">🛒 Cart</a>
+        <a href="#" class="login">Login</a>
+    </div>
+</nav>
+<header class="top-bar">
+    <div class="logo">MyShop</div>
+
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <span class="selected-lang">🌐 Language</span>
+        <ul class="lang-dropdown">
+            <li><a href="#">English</a></li>
+            <li><a href="#">हिंदी</a></li>
+            <li><a href="#">தமிழ்</a></li>
+            <li><a href="#">മലയാളം</a></li>
+            <li><a href="#">తెలుగు</a></li>
+        </ul>
+    </div>
+</header>
+<input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-btn">☰ Menu</label>
+
+    <!-- Offcanvas Menu -->
+    <div class="offcanvas">
+        <label for="menu-toggle" class="close-btn">✖</label>
+        <h2>Shop Categories</h2>
+        <ul>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Footwear</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Offers</a></li>
+        </ul>
+    </div>
+
+    <!-- Page Content -->
+    <div class="content">
+        <h1>Welcome to My E-commerce Store</h1>
+        <p>Click the menu button to view categories.</p>
+    </div>
+<section class="welcome">
+    <h1>Welcome to ShopEase 🛍️</h1>
+    <p>Your one-stop destination for amazing products at unbeatable prices.</p>
+    <div class="welcome-buttons">
+        <a href="#" class="btn shop-btn">Start Shopping</a>
+        <a href="#" class="btn deal-btn">View Deals</a>
+    </div>
+</section>
+
+
+
+<section class="grocery-products">
+    <h2>Daily Grocery Essentials</h2>
+
+    <div class="product-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="https://media.istockphoto.com/id/519309790/photo/pile-of-raw-basmati-rice-with-a-spoon.jpg?s=612x612&w=0&k=20&c=A9A87HykypkOo5qLMQm6bZjBQn83NE1NHMppw8-6Tnc=" alt="Rice">
+            <h3>Basmati Rice (5kg)</h3>
+            <p class="price">₹699</p>
+            <p class="details">Premium long-grain basmati rice</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="https://media.istockphoto.com/id/172876049/photo/whole-wheat-flour.jpg?s=612x612&w=0&k=20&c=bK48VqkF49oReBRhDoGfMORGapX2iWosEeImG_SXA8Q=" alt="Atta">
+            <h3>Wheat Atta (10kg)</h3>
+            <p class="price">₹549</p>
+            <p class="details">100% whole wheat flour</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="https://thumbs.dreamstime.com/b/fiveliter-sunflower-oil-bottle-dramatic-night-photography-ecommerce-marketing-captivating-shot-showcases-five-liter-370413472.jpg" alt="Cooking Oil">
+            <h3>Sunflower Oil (1L)</h3>
+            <p class="price">₹159</p>
+            <p class="details">Healthy refined cooking oil</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_5PUaEkcorvQR5LBcHVaGYb-HEKC3OHhjg&s" alt="Sugar">
+            <h3>Refined Sugar (2kg)</h3>
+            <p class="price">₹110</p>
+            <p class="details">Fine quality crystal sugar</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <img src="https://www.rippletea.com/cdn/shop/files/FoP_500g.jpg?crop=center&height=2048&v=1722936247&width=2048" alt="Tea">
+            <h3>Premium Tea Powder (500g)</h3>
+            <p class="price">₹299</p>
+            <p class="details">Strong aroma & rich taste</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx2teIw80T7R2mb6GfYYGIRAs5reAIYyh_Ww&s" alt="Milk">
+            <h3>Toned Milk (1L)</h3>
+            <p class="price">₹60</p>
+            <p class="details">Fresh & hygienic dairy milk</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card">
+            <img src="https://s3organicbucket.s3.amazonaws.com/Products/1_iLHtnqw.jfif" alt="Dal">
+            <h3>Toor Dal (1kg)</h3>
+            <p class="price">₹189</p>
+            <p class="details">High-protein lentils</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <button>Add to Cart</button>
+        </div>
+
+       
+
+    </div>
+</section>
+
+<section class="clothing-products">
+    <h2>Latest Clothing Collection</h2>
+
+    <div class="product-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="https://thehouseofrare.com/cdn/shop/files/mano-mens-t-shirt-white27624_12378c0a-13fe-4ae7-898c-97937bbc2aae.jpg?v=1719483708" alt="T-Shirt">
+            <h3>Men's Cotton T-Shirt</h3>
+            <p class="price">₹599</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="https://www.instafabplus.com/cdn/shop/files/1_a4fff37c-c15e-4809-8a4e-443d5635474b.jpg?v=1754045233" alt="Jeans">
+            <h3>Men's Denim Jeans</h3>
+            <p class="price">₹1,499</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="https://m.media-amazon.com/images/I/81ZR+jA48VL._AC_UY1100_.jpg" alt="Dress">
+            <h3>Women's Summer Dress</h3>
+            <p class="price">₹1,299</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvatlA5YWxp7I06srrPPJ1qRG6LomkjvcsPg&s" alt="Kurti">
+            <h3>Women's Cotton Kurti</h3>
+            <p class="price">₹899</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_wv9wvf2xXI-OetOXnTIMH3KFysdGtJ-JrQ&s  " alt="Hoodie">
+            <h3>Unisex Hoodie</h3>
+            <p class="price">₹1,799</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_aHirwJKn0YA4FdETNFmGl7ngDBwdrgbEaw&s" alt="Shirt">
+            <h3>Men's Formal Shirt</h3>
+            <p class="price">₹1,199</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+<section class="electronics-products">
+    <h2>Top Electronics Deals</h2>
+
+    <div class="product-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="https://cdn.mos.cms.futurecdn.net/eX6Rte42SVcQ6hYNiRAXx5.jpg" alt="Smartphone">
+            <h3>5G Android Smartphone</h3>
+            <p class="price">₹14,999</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="https://images-cdn.ubuy.co.in/63f73a1b168f6c147a53ef83-hp-14-laptop-computer-intel.jpg" alt="Laptop">
+            <h3>Core i5 Laptop (8GB RAM)</h3>
+            <p class="price">₹52,999</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="https://m.media-amazon.com/images/G/31/IMG24/Smart_Watches/Jupiter25/1400x800_E2LIVE._SX1242_QL85_.jpg" alt="Smartwatch">
+            <h3>Smartwatch with AMOLED Display</h3>
+            <p class="price">₹3,499</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="https://www.leafstudios.in/cdn/shop/files/1_6b54ff34-acdd-40e6-a08a-f2bfa33a1c7a_800x.png?v=1718706988" alt="Earbuds">
+            <h3>Wireless Bluetooth Earbuds</h3>
+            <p class="price">₹2,199</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <img src="https://m.media-amazon.com/images/G/31/img21/CEPC/tablets/Oneplus/4thJan/770x400._SX621_QL85_.jpg" alt="Tablet">
+            <h3>10-inch Android Tablet</h3>
+            <p class="price">₹18,499</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <img src="https://m.media-amazon.com/images/I/61s+OTDUsKL._AC_UF894,1000_QL80_.jpg" alt="Power Bank">
+            <h3>20,000mAh Power Bank</h3>
+            <p class="price">₹1,599</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card">
+            <img src="https://m.media-amazon.com/images/I/71T1WQSxp9L.jpg" alt="Keyboard">
+            <h3>Mechanical Gaming Keyboard</h3>
+            <p class="price">₹3,999</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <button>Add to Cart</button>
+        </div>
+
+       
+    </div>
+</section>
+<section class="footwear-section">
+    <h2 class="section-title">Footwear Collection</h2>
+
+    <div class="footwear-container">
+
+        <div class="footwear-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7UnDKMv2m3KgbAWUP_2pm6sSCVMGuieQY8A&s" alt="Running Shoes">
+            <h3>Running Shoes</h3>
+            <p>₹2,499</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="footwear-card">
+            <img src="https://image.made-in-china.com/202f0j00ZujkqolclhrO/Sneakers-Men-s-Non-Slip-Casual-Tennis-Shoes-Breathable-Fashion-Running-Shoes.webp" alt="Casual Sneakers">
+            <h3>Casual Sneakers</h3>
+            <p>₹1,999</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="footwear-card">
+            <img src="https://www.bxxyshoe.in/cdn/shop/files/black_5_a7e9d1b1-db49-4771-bb58-87857d0d486c.jpg?v=1710564271" alt="Formal Shoes">
+            <h3>Formal Shoes</h3>
+            <p>₹3,299</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="footwear-card">
+            <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2025/APRIL/10/FzWuhGHc_edbc2bcdd13846b885ee167463c00e0a.jpg" alt="Sandals">
+            <h3>Comfort Sandals</h3>
+            <p>₹1,299</p>
+            <button>Add to Cart</button>
+        </div>
+        
+
+    </div>
+</section>
+<section class="wishlist-section">
+    <h2 class="wishlist-title">My Wishlist ❤️</h2>
+
+    <div class="wishlist-container">
+
+        <div class="wishlist-card">
+            <img src="https://m.media-amazon.com/images/I/81ZR+jA48VL._AC_UY1100_.jpg" alt="Product 1">
+            <h3>Women's Summer Dress</h3>
+            <p class="price">₹1,299</p>
+            <div class="actions">
+                <button class="cart-btn">Add to Cart</button>
+                <button class="remove-btn">Remove</button>
+            </div>
+        </div>
+
+        <div class="wishlist-card">
+            <img src="https://m.media-amazon.com/images/I/71T1WQSxp9L.jpg" alt="Product 2">
+            <h3>Mechanical Gaming Keyboard</h3>
+            <p class="price">₹3,999</p>
+            <div class="actions">
+                <button class="cart-btn">Add to Cart</button>
+                <button class="remove-btn">Remove</button>
+            </div>
+        </div>
+        <div class="wishlist-card">
+            <img src="https://m.media-amazon.com/images/I/61s+OTDUsKL._AC_UF894,1000_QL80_.jpg" alt="Product 3">
+            <h3>20,000mAh Power Bank</h3>
+            <p class="price">₹1,599</p>
+            <div class="actions">
+                <button class="cart-btn">Add to Cart</button>
+                <button class="remove-btn">Remove</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="upgrade">
+<div class="upgrade-container">
+<div class="upgrade-header">
+<h2>Upgrade Your Plan</h2>
+<p>Get exclusive benefits, faster delivery, and premium support</p>
+</div>
+
+
+<div class="plans">
+<div class="plan">
+<h3>Basic</h3>
+<p class="price">₹299 / year</p>
+<ul>
+<li>Standard delivery</li>
+<li>Limited offers</li>
+<li>Email support</li>
+</ul>
+<button>Choose Plan</button>
+</div>
+
+
+<div class="plan popular">
+<span class="tag">Most Popular</span>
+<h3>Pro</h3>
+<p class="price">₹799 / year</p>
+<ul>
+<li>Free delivery</li>
+<li>Exclusive deals</li>
+<li>Priority support</li>
+</ul>
+<button>Upgrade Now</button>
+</div>
+
+
+<div class="plan">
+<h3>Elite</h3>
+<p class="price">₹1499 / year</p>
+<ul>
+<li>Same-day delivery</li>
+<li>VIP offers</li>
+<li>24/7 support</li>
+</ul>
+<button>Go Elite</button>
+</div>
+</div>
+</div>
+</section>
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- About -->
+        <div class="footer-about">
+            <h3>ShopEase</h3>
+            <p>Your one-stop online shop for clothes, electronics, groceries, and more. Quality products at unbeatable prices!</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p>Email: nikhildas@gmail.com</p>
+            <p>Phone: +917907645273</p>
+            <p>Address: pattambi,palakkad,kerala,India</p>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footer-newsletter">
+            <h4>Subscribe</h4>
+            <p>Get the latest deals and updates!</p>
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 ShopEase. All Rights Reserved.</p>
+        <div class="social-icons">
+         
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

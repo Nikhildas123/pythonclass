@@ -47,11 +47,11 @@
 # heloo= myset1.union(myset2)
 # print(heloo)
 
-#intersection
-set1 = {1, 2, 3}  #common
-set2 = {2, 3, 4}
-result = set1 & set2
-print(result)
+# #intersection
+# set1 = {1, 2, 3}  #common
+# set2 = {2, 3, 4}
+# result = set1 & set2
+# print(result)
 
 #difference
 # set1 = {1, 2, 3}
@@ -83,3 +83,10 @@ print(result)
 #frozen set
 # my_frozenset = frozenset([1, 2, 3, 4])
 # print(my_frozenset)
+
+
+
+
+#slicing
+a = "HELLO WORLD"
+print(a[0:5])
