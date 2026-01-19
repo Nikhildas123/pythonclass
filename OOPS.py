@@ -78,21 +78,49 @@
 # print(emp2.position)
 
 
+#INNER CLASS
+# class Employee:
+  
+#     class Company:
+#         def __init__(self,cname,location):
+#                self.cname=cname
+#                self.location=location
 
-class Employee:
-    Company="abc company"
+         
+#     def __init__(self,name,salary,cname,location):
+#         self.name=name
+#         self.salary=salary
+#         self.company=Employee.Company(cname,location) 
+        
 
-    def __init__(self,cname,location):
-        self.cname=cname
-        self.location=location
+#     def display_employee(self):
+#         print(f"Name:{self.name}, Salary:{self.salary}, Company:{self.company.cname}, Location:{self.company.location}")
+       
+       
+        
+      
+# emp=Employee("john",50000,"xyz corp","London")
+# emp.display_employee()
 
-class Employee:        
-   def __init__(self,name,salary,cname,location):
-    self.name=name
-    self.salary=salary
-    self.company=Employee.Company(cname,location)  
+#TIGHTLY COUPLED
+# class Company:
+#     def __init__(self, cname, location):
+#         self.name = cname
+#         self.location = location
+# class Employee:
+#  def __init__(self, name, salary, cname, location):
+#         self.name = name
+#         self.salary = salary
+#         self.company = Company(cname, location) 
+# def display_employee(self):
+#         print(f"Name: {self.name}, Salary: {self.salary}, Company: {self.company.cname}, Location: {self.company.location}")
+# emp = Employee("John", 50000, "XYZ Corp", "London")
+# emp.display_employee()
+        
+    
+        
 
-def display_employee(self):
-    print(f"name:{self.name},salary:{self.salary},company:{self.company.cname}")
-emp=Employee("john",50000,"xyz corp","London")
-emp.display_employee()
+
+
+        
+        
