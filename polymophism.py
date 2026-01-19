@@ -14,19 +14,7 @@
 # print (animal_sound(dog))
 # print(animal_sound(cat))
 
-#duck
+      
 
-class Dog:
-    def speak(self):
-        print("woaf!!")
-class Cat:
-    def speak(self):
-        print("meow")
-class human:
-    def speak(self):
-        print("hellow")
-def make_it_speak(obj):
-    obj.speak()
-for creature in [Dog(),Cat(),human()]:
-    make_it_speak(creature)
-            
+
+        
